@@ -1,5 +1,5 @@
 - 👋 Hi, I’m William Alexander @AguirreAntolinez
-- 👀 I’m interested in applied statistic, data analysis and econometric.
+- 👀 I’m interested in applied statistic, data analysis and econometrics.
 - 🌱 I’m currently learning data analysis and machine learning whith R and Python.
 - 💞️ I’m looking to collaborate on syntax for programming languages R and Python...
 - 📫 My email is w.alexanderaguirre@gmail.com  
