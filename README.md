@@ -1,8 +1,6 @@
 👨🏻‍💼 Director de Analítica en Invamer \
 🎓 Magister en Economía de UdeA 💚🤍 \
 📊 Esp. en Estadística Aplicada de UA 🧡💙\
-
-
 👨🏻‍💻 Combino Business Intelligence y Análisis Multivariado para traducir información compleja en recomendaciones accionables. \
 🎯 Aplico analítica avanzada para resolver problemas reales, optimizar procesos y respaldar decisiones en contextos de alta incertidumbre. \
 📊 Lidero proyectos que van desde la construcción de dashboards ejecutivos hasta la modelación avanzada del comportamiento del consumidor y la evolución de la opinión pública en Colombia. \
