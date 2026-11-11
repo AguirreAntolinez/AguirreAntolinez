@@ -1,1 +1,81 @@
 
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="235" viewBox="0 0 1200 235" role="img" aria-labelledby="titulo">
+  <title id="titulo">William Alexander Aguirre Antolínez</title>
+
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FCFDFE"/>
+      <stop offset="60%" stop-color="#F4F7FA"/>
+      <stop offset="100%" stop-color="#E8EEF4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo y retícula -->
+  <rect width="1200" height="235" fill="url(#fondo)"/>
+  <rect x="0" y="234" width="1200" height="1" fill="#D3DDE6"/>
+  <rect x="80" y="42" width="36" height="3" rx="1.5" fill="#2F6F9F"/>
+
+  <!-- Nombre -->
+  <text x="80" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="-1" fill="#0F2233">William Alexander</text>
+  <text x="80" y="176" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="-1" fill="#0F2233">Aguirre Antolínez</text>
+
+  <!-- Línea base común -->
+  <rect x="80" y="198" width="1040" height="1" fill="#C9D5DF"/>
+
+  <!--
+    Ocho barras. Cada una:
+    1) crece desde la línea base al cargar (anima y + height), con 60 ms de desfase;
+    2) recibe el azul durante 1 s dentro de un ciclo de 8 s, en orden de izquierda a derecha.
+    El desfase negativo (begin) define en qué punto del ciclo arranca cada barra.
+    Animación SMIL: funciona en <img>, no depende de CSS ni de hojas de estilo.
+  -->
+  <g>
+    <rect x="852" y="164" width="11" height="34" rx="1" fill="#C2CFDA">
+      <animate attributeName="y" from="198" to="164" dur="0.75s" begin="0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 0.61 0.36 1"/>
+      <animate attributeName="height" from="0" to="34" dur="0.75s" begin="0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 0.61 0.36 1"/>
+      <animate attributeName="fill" values="#2F6F9F;#C2CFDA;#C2CFDA" keyTimes="0;0.125;1" calcMode="discrete" dur="6s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="880" y="146" width="11" height="52" rx="1" fill="#C2CFDA">
+      <animate attributeName="y" from="198" to="146" dur="0.75s" begin="0.06s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 0.61 0.36 1"/>
+      <animate attributeName="height" from="0" to="52" dur="0.75s" begin="0.06s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 0.61 0.36 1"/>
+      <animate attributeName="fill" values="#2F6F9F;#C2CFDA;#C2CFDA" keyTimes="0;0.125;1" calcMode="discrete" dur="6s" begin="-5.25s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="908" y="158" width="11" height="40" rx="1" fill="#C2CFDA">
+      <animate attributeName="y" from="198" to="158" dur="0.75s" begin="0.12s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 0.61 0.36 1"/>
+      <animate attributeName="height" from="0" to="40" dur="0.75s" begin="0.12s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 0.61 0.36 1"/>
+      <animate attributeName="fill" values="#2F6F9F;#C2CFDA;#C2CFDA" keyTimes="0;0.125;1" calcMode="discrete" dur="6s" begin="-4.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="936" y="124" width="11" height="74" rx="1" fill="#C2CFDA">
+      <animate attributeName="y" from="198" to="124" dur="0.75s" begin="0.18s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 0.61 0.36 1"/>
+      <animate attributeName="height" from="0" to="74" dur="0.75s" begin="0.18s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 0.61 0.36 1"/>
+      <animate attributeName="fill" values="#2F6F9F;#C2CFDA;#C2CFDA" keyTimes="0;0.125;1" calcMode="discrete" dur="6s" begin="-3.75s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="964" y="140" width="11" height="58" rx="1" fill="#C2CFDA">
+      <animate attributeName="y" from="198" to="140" dur="0.75s" begin="0.24s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 0.61 0.36 1"/>
+      <animate attributeName="height" from="0" to="58" dur="0.75s" begin="0.24s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 0.61 0.36 1"/>
+      <animate attributeName="fill" values="#2F6F9F;#C2CFDA;#C2CFDA" keyTimes="0;0.125;1" calcMode="discrete" dur="6s" begin="-3s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="992" y="110" width="11" height="88" rx="1" fill="#2F6F9F">
+      <animate attributeName="y" from="198" to="110" dur="0.75s" begin="0.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 0.61 0.36 1"/>
+      <animate attributeName="height" from="0" to="88" dur="0.75s" begin="0.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 0.61 0.36 1"/>
+      <animate attributeName="fill" values="#2F6F9F;#C2CFDA;#C2CFDA" keyTimes="0;0.125;1" calcMode="discrete" dur="6s" begin="-2.25s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="1020" y="152" width="11" height="46" rx="1" fill="#C2CFDA">
+      <animate attributeName="y" from="198" to="152" dur="0.75s" begin="0.36s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 0.61 0.36 1"/>
+      <animate attributeName="height" from="0" to="46" dur="0.75s" begin="0.36s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 0.61 0.36 1"/>
+      <animate attributeName="fill" values="#2F6F9F;#C2CFDA;#C2CFDA" keyTimes="0;0.125;1" calcMode="discrete" dur="6s" begin="-1.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="1048" y="134" width="11" height="64" rx="1" fill="#C2CFDA">
+      <animate attributeName="y" from="198" to="134" dur="0.75s" begin="0.42s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 0.61 0.36 1"/>
+      <animate attributeName="height" from="0" to="64" dur="0.75s" begin="0.42s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.22 0.61 0.36 1"/>
+      <animate attributeName="fill" values="#2F6F9F;#C2CFDA;#C2CFDA" keyTimes="0;0.125;1" calcMode="discrete" dur="6s" begin="-0.75s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
